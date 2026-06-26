@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ahmed Tarek — data organization, Excel data cleaning, and n8n automation portfolio.">
+  <meta name="theme-color" content="#050c11">
+  <title>Ahmed Tarek | Data & Automation Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="orb orb-1" aria-hidden="true"></div>
+  <div class="orb orb-2" aria-hidden="true"></div>
+  <div class="orb orb-3" aria-hidden="true"></div>
+
+  <header id="navbar">
+    <a class="nav-logo" href="#hero" aria-label="Ahmed Tarek portfolio home">AT<span>.portfolio</span></a>
+    <nav aria-label="Primary navigation">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" onclick="closeMobileNav()">About</a></li>
+        <li><a href="#skills" onclick="closeMobileNav()">Skills</a></li>
+        <li><a href="#projects" onclick="closeMobileNav()">Projects</a></li>
+        <li><a href="#contact" onclick="closeMobileNav()">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="nav-cta" href="#contact">Let's Talk</a>
+    <button class="nav-hamburger" id="nav-hamburger" type="button" aria-label="Open navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="container" id="hero-content"></div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">01 — About</p>
+          <h2 class="section-title">Practical work with data and automation.</h2>
+          <div class="section-line"></div>
+        </div>
+        <div id="about-content"></div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">02 — Skills</p>
+          <h2 class="section-title">Tools I use to make information useful.</h2>
+          <div class="section-line"></div>
+        </div>
+        <div id="skills-content"></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">03 — Featured Work</p>
+          <h2 class="section-title">Projects built to solve real workflow problems.</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="glass reveal">
+          <p class="section-label">04 — Contact</p>
+          <h2 class="section-title">Let’s build something organized.</h2>
+          <div class="section-line"></div>
+          <p class="contact-subtitle">Open to entry-level roles, freelance data work, and workflow-automation projects.</p>
+          <div class="contact-links" id="contact-links"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Ahmed Tarek. Built for data, automation, and continuous improvement.</p>
+    <p class="mono">Available for remote opportunities.</p>
+  </footer>
+
+  <button id="export-btn" type="button" onclick="exportUpdatedPortfolio()">⇩ Export Updated HTML</button>
+  <button id="edit-fab" type="button" aria-pressed="false" onclick="toggleEditMode()"><span class="dot"></span><span class="edit-fab-label">Edit Portfolio</span></button>
+
+  <div id="edit-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-box">
+      <h2 class="modal-title" id="modal-title">Edit Project</h2>
+      <form id="project-form">
+        <div class="form-group"><label class="form-label" for="project-title-input">Project title *</label><input class="form-input" id="project-title-input" required></div>
+        <div class="form-group"><label class="form-label" for="project-summary-input">Summary *</label><textarea class="form-textarea" id="project-summary-input" required></textarea></div>
+        <div class="form-group"><label class="form-label" for="project-result-input">Result *</label><textarea class="form-textarea" id="project-result-input" required></textarea></div>
+        <div class="form-group"><label class="form-label" for="project-tools-input">Tools — separated by commas</label><input class="form-input" id="project-tools-input" placeholder="Excel, Power Query, Data Cleaning"></div>
+        <div class="form-group"><label class="form-label" for="project-image-input">Screenshot path</label><input class="form-input" id="project-image-input" placeholder="assets/projects/new-project.png"></div>
+        <div class="form-group"><label class="form-label" for="project-github-input">GitHub URL</label><input class="form-input" id="project-github-input" type="url" placeholder="https://github.com/..."></div>
+        <div class="form-group"><label class="form-label" for="project-demo-input">Live demo URL (optional)</label><input class="form-input" id="project-demo-input" type="url" placeholder="https://..."></div>
+        <div class="modal-actions">
+          <button class="modal-delete" id="delete-project-btn" type="button">Delete</button>
+          <button class="modal-cancel" type="button" onclick="closeModal()">Cancel</button>
+          <button class="modal-save" type="submit">Save Project</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
