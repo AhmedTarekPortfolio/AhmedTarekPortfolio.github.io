@@ -7,7 +7,7 @@ window.PORTFOLIO_DATA = {
     name: "Ahmed Tarek",
     tagline: "Data Organizer · Excel Specialist · n8n Automation Builder",
     bio: "I build practical data and automation solutions that turn messy raw information into organized, actionable results. My work spans Excel data cleaning, Google Sheets workflows, and n8n automation pipelines — including a CV-to-job matching system powered by AI that searches, scores, and tracks remote opportunities automatically. I am seeking entry-level roles and freelance work in data entry, data organization, and workflow automation.",
-    photo: "assets/profile-placeholder.svg", // Replace with: assets/profile-photo.jpg
+    photo: "assets/profile-photo.jpg", // Replace with: assets/profile-photo.jpg
     github: "https://github.com/AhmedTarekPortfolio",
     linkedin: "", // Paste your LinkedIn profile URL here
     fiverr: "",   // Paste your Fiverr profile URL here
