@@ -251,7 +251,7 @@ section { padding: 100px 0; }
   border-radius: 50%;
   padding: 3px;
   background: linear-gradient(135deg, var(--cyan), #0e7490, transparent);
-  animation: rotateBorder 6s linear infinite;
+  animation: none;
 }
 @keyframes rotateBorder {
   from { transform: rotate(0deg); }
