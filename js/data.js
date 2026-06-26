@@ -12,7 +12,7 @@ window.PORTFOLIO_DATA = {
     linkedin: "", // Paste your LinkedIn profile URL here
     fiverr: "",   // Paste your Fiverr profile URL here
     upwork: "",   // Paste your Upwork profile URL here
-    email: ""      // Example: ahmed@example.com
+    email: "ahmedabntarek9@gmail.com"      // Example: ahmed@example.com
   },
 
   skills: [
