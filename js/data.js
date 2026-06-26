@@ -28,16 +28,16 @@ window.PORTFOLIO_DATA = {
     {
       category: "Automation",
       items: [
-        { name: "n8n Workflow Builder", level: 55, label: "Intermediate" },
-        { name: "AI Prompt Design", level: 50, label: "Intermediate" },
-        { name: "API & HTTP Integration", level: 42, label: "Beginner" }
+        { name: "n8n Workflow Builder", level: 80, label: "Advanced" },
+        { name: "AI Prompt Design", level: 60, label: "Intermediate" },
+        { name: "API & HTTP Integration", level: 65, label: "Intermediate" }
       ]
     },
     {
       category: "Tools & Platforms",
       items: [
         { name: "GitHub", level: 45, label: "Beginner" },
-        { name: "Telegram Bot API", level: 42, label: "Beginner" },
+        { name: "Telegram Bot API", level: 65, label: "Intermediate" },
         { name: "Remote Job Research", level: 65, label: "Intermediate" }
       ]
     }
