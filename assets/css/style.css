@@ -179,6 +179,12 @@ img { display: block; max-width: 100%; }
 .media-options { display: grid; gap: 5px; }
 .media-options span { color: var(--dim); font: 700 8px ui-monospace,monospace; letter-spacing: .15em; }
 .media-options strong { margin-bottom: 13px; color: #dfe6e4; font: 650 13px ui-monospace,monospace; }
+.local-ai-visual { display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; gap: 34px; padding: 40px; background: radial-gradient(circle at 26% 40%,rgba(103,232,192,.18),transparent 38%),linear-gradient(145deg,#0d1b1b,#0b0f16); }
+.ai-node { width: 138px; height: 138px; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid rgba(103,232,192,.35); border-radius: 50%; background: rgba(6,18,18,.8); box-shadow: 0 0 0 13px rgba(103,232,192,.04),0 24px 45px rgba(0,0,0,.35); }
+.ai-node span,.ai-node small { color: var(--muted); font: 700 8px ui-monospace,monospace; letter-spacing: .18em; }
+.ai-node strong { color: var(--accent); font: 800 38px ui-monospace,monospace; line-height: 1.1; }
+.model-stack { display: grid; gap: 8px; }
+.model-stack span { padding: 9px 11px; border-left: 2px solid var(--accent); background: rgba(255,255,255,.045); color: #dfe6e4; font: 650 10px ui-monospace,monospace; letter-spacing: .08em; }
 .learning-work { display: grid; grid-template-columns: .7fr 1.3fr; gap: 70px; margin-top: 100px; padding-top: 40px; border-top: 1px solid var(--line); }
 .learning-intro .section-kicker { margin-top: 0; }
 .learning-intro h3 { margin: 0 0 14px; font-size: 36px; letter-spacing: -.04em; }
@@ -322,6 +328,9 @@ img { display: block; max-width: 100%; }
   .youtube-visual { padding: 28px 20px; gap: 18px; }
   .media-stack { width: 105px; height: 105px; }
   .media-stack span { width: 74px; height: 74px; border-radius: 17px; font-size: 24px; }
+  .local-ai-visual { padding: 28px 20px; gap: 18px; }
+  .ai-node { width: 106px; height: 106px; }
+  .ai-node strong { font-size: 29px; }
   .filter-bar { width: 100%; flex-wrap: nowrap; overflow-x: auto; padding: 0 12px 8px 0; margin-right: 0; }
   .filter-button { flex: none; }
   .project-topline { align-items: flex-start; }

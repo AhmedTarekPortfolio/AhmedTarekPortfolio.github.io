@@ -1,6 +1,6 @@
 # Ahmed Tarek Hassanein — Portfolio
 
-A responsive, GitHub Pages–ready personal portfolio for Ahmed Tarek Hassanein, a Networking and Communications Engineering student in Ajman, UAE. The site presents practical experience in Excel, data organization, Python learning projects, workflow automation, technical support, and an ongoing path toward cloud data engineering.
+A responsive, GitHub Pages–ready personal portfolio for Ahmed Tarek Hassanein, a Networking and Communications Engineering student in Ajman, UAE. The site presents practical experience in Excel, data organization, Python learning projects, workflow automation, technical support, local AI deployment research, and an ongoing path toward cloud data engineering.
 
 ## Website sections
 
@@ -93,4 +93,4 @@ The reviewed CV is available at `resume/Ahmed-Tarek-Hassanein-CV.pdf` and is lin
 
 ## Content integrity
 
-Public GitHub links were verified for the Excel cleaning, CV-to-job workflow, Python inventory, Python student management, YouTube media downloader, Python practice, and portfolio repositories. Projects without a public repository deliberately omit a GitHub button. The educational workbook case study contains no student names, marks, school identity, or confidential source files.
+Public GitHub links were verified for the Excel cleaning, CV-to-job workflow, Python inventory, Python student management, YouTube media downloader, Python practice, and portfolio repositories. Projects without a public repository deliberately omit a GitHub button. The Local AI Deployment Lab is labeled as research in progress because its supporting ChatGPT project contains discussion and deployment notes but no uploaded source files. The educational workbook case study contains no student names, marks, school identity, or confidential source files.
