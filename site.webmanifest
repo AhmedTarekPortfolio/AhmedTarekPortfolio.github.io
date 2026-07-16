@@ -1,0 +1,14 @@
+{
+  "name": "Ahmed Tarek Hassanein Portfolio",
+  "short_name": "Ahmed Tarek",
+  "description": "Portfolio covering Excel, data entry, Python fundamentals, automation, and technical support.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0d12",
+  "theme_color": "#0a0d12",
+  "icons": [
+    { "src": "assets/images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/images/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
